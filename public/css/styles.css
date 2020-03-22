@@ -1,0 +1,24 @@
+@charset  "UTF-8";
+
+@font-face{
+    font-family: "Roboto-Regular";
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
+}
+
+#content {
+    display:grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 150px;
+    justify-items: end;
+    align-items:   center;
+    justify-content:   center;
+    align-content: center;
+    width:500px;
+    height: 500px;
+    background-color: #800000;
+}
+
+#logo {
+    
+    width: 250px;
+}
