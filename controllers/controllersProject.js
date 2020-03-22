@@ -3,3 +3,12 @@ exports.login = (req, res)=>{
         'pageTitle':'Login'
     });
 }
+
+exports.validarLogin = (req, res)=>{
+ 
+    console.log("valor: ", req.body);
+}
+
+exports.olvidoclave = (req,res)=>{
+    res.render('forgot');
+}

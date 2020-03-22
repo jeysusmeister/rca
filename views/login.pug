@@ -3,3 +3,16 @@ block modelo
     #content
         header
             img(id="logo" src="./imgs/Logo_tves_blanco.png", alt="logo del canal")
+            #formularioLogin
+                form(action="/" method="POST")
+                    #lineaFormUsuario
+                        <!-- label(for="txtUser") Usuario -->
+                        input#txtUser(type="text", name="txtUser", placeholder="Ingrese su usuario")
+                    #lineaFormClave
+                        <!-- label(for="txtClave") Contraseña -->
+                        input#txtClave(type="password", name="txtClave", placeholder="Ingrese su contraseña")
+                    #botoneraFormLogin
+                        input#btnEnviar(type="submit", value="Enviar")
+                        input#btnLimpiar(type="reset", value="Limpiar")
+                    #cambioClave
+                        a(href="./olvido-contrasena") Olvido contraseña    

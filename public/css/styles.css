@@ -22,3 +22,53 @@
     
     width: 250px;
 }
+
+#formularioLogin {
+    width:200px;
+    padding:10px;
+    border: 1px black solid;
+    border-radius: 4px;
+}
+
+#lineaFormUsuario {
+    padding:5px;
+}
+
+#lineaFormClave {
+    padding: 5px;
+}
+
+#txtUser{
+    width: 180px;
+    font-family: "Roboto-Regular";
+}
+
+#txtClave{
+    width: 180px;
+    font-family: "Roboto-Regular";
+}
+
+#botoneraFormLogin {
+    padding: 5px;
+}
+
+#btnEnviar {
+    font-family: "Roboto-Regular";    
+}
+
+#cambioClave a {
+    font-family: "Roboto-Regular";
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#btnLimpiar {
+    font-family: "Roboto-Regular";
+    margin-left: 55px;
+}
+
+#cambioClave {
+    padding: 5px;
+    text-align: center;
+}
