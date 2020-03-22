@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon npx ./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeysusmeister/rca.git"
+  },
   "keywords": [
     "NodeJs",
     "Js",
